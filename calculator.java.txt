@@ -1,4 +1,4 @@
-class calculator{
+class Main{
     
     double add,sub,mul,div;
     double add(double value1,double value2){
