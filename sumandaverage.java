@@ -1,5 +1,3 @@
-//Write a program to initialize an integer array with the command line arguments and print the sum and average of the array.
-
 public class Main
 {
     public static void main(String[] args) {
