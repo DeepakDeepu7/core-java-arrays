@@ -1,0 +1,29 @@
+public class Main
+{
+    int id;
+    String name;
+    int salary;
+    
+    void setid(int i){
+        id=i;
+        
+    }
+    void setname(String n){
+        name=n;
+    }
+    void setsalary(int s){
+        salary=s;
+    }
+    void getEmployeeDetails(){
+        System.out.println(name+"'s salary is : "+salary+"  regarding id Number : "+id);
+    }
+    
+	public static void main(String[] args) {
+	     Main fobj = new Main();
+	     fobj.setname("deepak");
+	     fobj.setid(2000080176);
+	     fobj.setsalary(200000);
+	     fobj.getEmployeeDetails();
+	}
+}
+

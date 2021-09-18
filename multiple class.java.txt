@@ -1,0 +1,21 @@
+class subclass{
+    
+    String msg = "hello world";
+    void display(){
+        System.out.println(msg);
+    }
+}
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	    subclass obj = new subclass();
+	    obj.display();
+	    
+	    
+		
+	}
+}
+

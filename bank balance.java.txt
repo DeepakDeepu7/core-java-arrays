@@ -1,0 +1,33 @@
+public class Main
+{
+    double balance;
+    void addbalance(double value){
+        
+        balance = balance+value;
+    }
+    double getbalance(){
+        return balance;
+        
+    }
+    void withdraw(double value){
+        if(balance>=value){
+        balance = balance-value;
+    }
+        else{
+            System.out.println("insufficient funds");
+        }
+    }
+	public static void main(String[] args) {
+	    Main obj = new Main();
+	    obj.addbalance(1000);
+	    System.out.println(obj.getbalance());
+	    obj.addbalance(obj.getbalance()*2);
+		System.out.println(obj.getbalance());
+		obj.withdraw(4000);
+		System.out.println("remaining balance: "+obj.getbalance());
+        
+		    
+		    
+	
+}}
+

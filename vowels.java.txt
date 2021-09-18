@@ -1,0 +1,16 @@
+public class Main {
+   public static void main(String args[]) {
+      String s = "strings are immutable";
+      int c=0;
+      for(int i=0;i<s.length();i++){
+         char temp = s.charAt(i);
+         if(temp=='a' || temp=='e'|| temp=='i' || temp=='o' || temp=='u' ){
+              
+              c+=1;
+          }
+          
+      }
+      System.out.println("vowels are : "+c);
+   }
+}
+

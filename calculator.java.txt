@@ -1,0 +1,40 @@
+class calculator{
+    
+    double add,sub,mul,div;
+    double add(double value1,double value2){
+        
+        return(value1+value2);
+
+        
+    }
+    double sub(double value1,double value2){
+        return(value1-value2);
+   
+    }
+    double mul(double value1,double value2){
+        return(value1*value2);
+        
+        
+    }
+    double div(double value1,double value2){
+        return(value1/value2);
+        
+        
+    }
+    
+}
+
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		calculator obj = new calculator();
+
+		System.out.println(obj.add(10,56));
+		System.out.println(obj.sub(10,654));
+		System.out.println(obj.mul(14,18));
+		System.out.println(obj.div(10,56));
+	}
+}
+
