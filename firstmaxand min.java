@@ -1,5 +1,3 @@
-//Write a program to find the largest 2 numbers and the smallest 2 numbers in the array initialized from the command line arguments.
-
 public class Main
 {
 	public static void main(String[] args) { 
