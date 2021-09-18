@@ -12,7 +12,7 @@ public class Main
 		        break;
 		    }
 		}
-        System.out.println("-1");	
+        System.out.println("-1");	 
 	    
 	}
 }
