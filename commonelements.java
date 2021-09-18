@@ -1,5 +1,3 @@
-//Write a Java program to find the common elements between two arrays.
-Create and initialize two arrays.
 
 public class Main{
 	public static void main(String[] args) {
