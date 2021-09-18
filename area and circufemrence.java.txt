@@ -1,0 +1,30 @@
+class circle{
+    double radius;
+    
+    circle(double radius){
+    
+        this.radius=radius;
+        
+    }
+    double area(){
+        
+        return(3.14*(this.radius*this.radius));
+    }
+    double circumference(){
+        return(3.14*2*this.radius);
+    }
+    
+    
+}
+
+public class Main{
+    public static void main(String args[]){
+        circle area1= new circle(59.3);
+        
+        System.out.println("area is : "+area1.area());
+        
+        System.out.println("circumference is :"+area1.circumference());
+        
+    }
+    
+}

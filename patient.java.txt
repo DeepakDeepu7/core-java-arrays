@@ -1,0 +1,23 @@
+class Patient{  
+    String name;
+    double weight;
+    double height;
+    Patient(String name, double height, double weight){
+        this.height=height;
+        this.weight=weight;
+        this.name=name;
+    }
+    double BMI(){  
+        return(((this.weight)/(this.height*this.height))*703);
+    }
+}
+
+ 
+
+public class Main{
+    public static void main(String[] args) {  
+        Patient p1 = new Patient("DEEPAK",88.66,7.69);
+        System.out.println("BMI OF THE PERSON IS : "+p1.BMI());
+        
+    }
+}

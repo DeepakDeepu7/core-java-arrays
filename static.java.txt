@@ -1,0 +1,23 @@
+class StaticDemo
+
+{
+
+private static int a = 0;
+
+private int b;
+
+public void set ( int i, int j)
+
+{
+
+a = i; b = j;
+
+}
+
+public void Show()
+{
+
+System.out.println("This is static a: " + a ); 
+System.out.println( "This is non-static b: " + b );
+}
+}

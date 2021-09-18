@@ -1,0 +1,15 @@
+public class Main
+{
+    public static void main(String[] args) {
+        char x = args[0].charAt(0);
+        char y = args[1].charAt(0);
+        if(x < y)
+        {
+            System.out.println(x+","+y);
+        }
+        else
+        {
+            System.out.println(x+","+y);    
+        }
+    }
+}
