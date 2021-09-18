@@ -1,4 +1,4 @@
-class First
+class Main
 {
    int a=10;
    void disp()
